@@ -1,0 +1,35 @@
+.Start {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.Sentences {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.TheList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* .ListItem {
+  font-size: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  position: relative;
+}
+
+.ListItem::after{
+  content: `${(props)=>props.text}`;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: pink;
+} */
+
